@@ -1,0 +1,83 @@
+// =========================================================
+// * Volt React Dashboard
+// =========================================================
+// * Product Page: https://themesberg.com/product/dashboard/volt-react
+// * Copyright 2021 Themesberg (https://www.themesberg.com)
+// * Official Repository: https://github.com/themesberg/volt-react-dashboard
+// * License: MIT License (https://themesberg.com/licensing)
+// * Designed and coded by https://themesberg.com
+// =========================================================
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+// Bootstrap mixins and functions
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+// Change variables here
+@import "stylesheet/variables";
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// Vendor
+@import "stylesheet/vendor";
+// stylesheet mixins & functions
+@import "stylesheet/mixins";
+@import "stylesheet/functions";
+// Utilities
+@import "stylesheet/reboot";
+@import "stylesheet/utilities";
+// Layout
+@import "stylesheet/layout";
+// Components
+@import "stylesheet/components";
+.content {
+    overflow: hidden;
+}
+
+.mia-cms-page-top {
+    border-top: 4px solid #115DBF !important;
+}
+
+.navbar-theme-primary {
+    background-color: #2e3650 !important;
+}
+
+.nav-item .accordion-item {
+    background-color: inherit !important;
+}
+
+.nav-item .accordion-item .accordion-button {
+    background-color: inherit !important;
+}
+
+.sidebar {
+    background-color: #2e3650 !important;
+}
+
+.sidebar .nav-item.active>.nav-link {
+    background-color: #115DBF !important;
+    border: .0625rem solid #0F5FA6 !important;
+}
+
+.sidebar .nav-item .nav-link {
+    border: 0.0625rem solid transparent !important;
+}
+
+.btn-primary {
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    border-color: transparent;
+}
+
+.navbar-toggler:hover,  .navbar-toggler:focus,{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #9FD923;
+}
+
+button{
+    border: none !important;
+}
